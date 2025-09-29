@@ -6,6 +6,10 @@ yarn-error.log*
 .gitignore
 README.md
 .env
+.env.local
+.env.development
+.env.test
+.env.production
 .nyc_output
 coverage
 .vscode
@@ -17,3 +21,28 @@ dist
 build
 .DS_Store
 Thumbs.db
+
+# Docker files
+Dockerfile*
+docker-compose*
+
+# Development files
+src/**/*.test.*
+src/**/*.spec.*
+**/*.md
+
+# Logs
+logs
+*.log
+
+# Runtime data
+pids
+*.pid
+*.seed
+*.pid.lock
+
+# Optional npm cache directory
+.npm
+
+# Optional eslint cache
+.eslintcache
